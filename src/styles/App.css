@@ -1,0 +1,56 @@
+
+p{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Slabo 27px', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+canvas {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+}
+#skills li:before {
+  content: "\f046"; /* FontAwesome Unicode */
+  color: orange;
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+#grid-container {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  grid-gap: 1px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+nav {
+  grid-row-start: 2 / -2;
+}

@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "tempus": {
+      "name": "Tempus - CRUD to-do list",
+      "description":
+        "A to-do list that uses Google's Firebase database system to store data with a material design aesthetic and VueJS as a front-end library",
+      "demoURL": "",
+      "features":
+        "Log-in system, database interactivity, dynamic Vue components, easy to use UI",
+      "responsibilities":
+        "I collaberated with Rokas during the christmas holidays from CIT to create this app, I personally managed the styling with SASS, designed the log-in screen, and designed the component that adds the task to the database with a slider. We used GitHub extensively on this project to create branches, check eachothers work and create pull requests",
+      "improvements":
+        "I would have liked to integrate some modals into the application, that would have made the user's experience much nicer"
+    }
+  },
+  "norseman": { "name": "Norseman Instruments Website" },
+
+  "tate": { "name": "Fake tate gallery" }
+}
