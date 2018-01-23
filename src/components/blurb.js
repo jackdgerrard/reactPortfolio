@@ -18,7 +18,7 @@ class blurb extends Component {
           development student in Cork Institute of Technology.
         </p>
         <p>
-          I specialize in responsive, dynamic{" "}
+          I specialize in responsive, dynamic
           <a href="https://www.javascript.com/">JavaScript</a> apps.
         </p>
         <p>

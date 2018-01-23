@@ -8,12 +8,23 @@
       "features":
         "Log-in system, database interactivity, dynamic Vue components, easy to use UI",
       "responsibilities":
-        "I collaberated with Rokas during the christmas holidays from CIT to create this app, I personally managed the styling with SASS, designed the log-in screen, and designed the component that adds the task to the database with a slider. We used GitHub extensively on this project to create branches, check eachothers work and create pull requests",
+        "I collaberated with Rokas to create this app, I personally managed the styling with SASS, designed the log-in screen, and designed the component that adds the task to the database with a slider. We used GitHub extensively on this project to create branches, check eachothers work and create pull requests",
       "improvements":
         "I would have liked to integrate some modals into the application, that would have made the user's experience much nicer"
     }
   },
   "norseman": { "name": "Norseman Instruments Website" },
 
-  "tate": { "name": "Fake tate gallery" }
+  "tate": {
+    "name": "Fake tate gallery",
+    "description":
+      "A project for server-side web development, second year. I used Express and pug(formerly Jade) to create a node powered web server, sqlite to provide a database and Bulma as a CSS framework. The principle is that the user can browse various pieces from the tate Art Gallery which was published under creative commons. Sql pulls the data in, flexbox makes it fit on the page and Bulma makes it look good.",
+    "demoURL": "",
+    "features":
+      "Flexbox, CRUD database interactiion, Bulma CSS framework, Express, NodeJS",
+    "responsibilities":
+      "This was a college project, I did all the work on this alone.",
+    "Improvements":
+      "I was given specific tools to use to create this app, If I had a choice I would have used a better database service than SQLITE as it provided more obstacles than solutions. I think I could have improved the front end too, Grid may have been a better solution than flexbox. "
+  }
 }

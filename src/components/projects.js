@@ -6,8 +6,7 @@
 import React, { Component } from "react";
 
 //projects
-import projects from './projects.json';
-
+import projects from "./projects.json";
 
 /*************
  ** projects
@@ -18,17 +17,9 @@ class Projects extends Component {
     return (
       <section>
         <h2>Projects</h2>
-        <h3>
-          A selection of projects I'm most proud of 
-        </h3>
+        <h3>A selection of projects I'm most proud of</h3>
 
-        <ul className="flexbox">
-          {this.props.projects.map((projects)=> {
-            return <li project={project.name} key={project.name}/>
-          })}
-
-
-        </ul>
+        <section className="flexbox" />
 
         <p>
           <a href="https://github.com/jackdgerrard">
@@ -36,14 +27,12 @@ class Projects extends Component {
           </a>
         </p>
 
-
         <p>
           <a href="https://codepen.io/">
             <i className="fa fa-codepen" aria-hidden="true" />Link to my CodePen
             profile
           </a>
         </p>
-
       </section>
     );
   }
