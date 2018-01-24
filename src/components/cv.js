@@ -14,8 +14,11 @@ class cv extends Component {
     return (
       <section id="Curriculum-Vitae" className="glass">
         <h2>Downloadable curriculum vitae</h2>
-        <form method="get" action="CV.pdf">
-          <button type="submit">Open PDF</button>
+        <form method="get" action="CV.pdf" target="_blank">
+          <button type="submit">
+            Open PDF <br />
+            <i class="fa fa-external-link" aria-hidden="true" />
+          </button>
         </form>
       </section>
     );

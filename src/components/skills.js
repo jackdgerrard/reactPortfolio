@@ -26,9 +26,9 @@ class skills extends Component {
             on this page and several other projects.
           </li>
           <li>
-            PreProcessors: Pug(Previously Jade), Sass, Scss, TypeScript as shown
-            on my CodePen profile where I frequently experiment with front-end
-            technologies.
+            PreProcessors: Pug(previously Jade), JSX, Babel, Sass, Scss,
+            TypeScript as shown on my CodePen profile where I frequently
+            experiment with front-end technologies.
           </li>
           <li>
             Version control with git demonstrated by my github account which I
@@ -52,7 +52,8 @@ class skills extends Component {
           </li>
           <li>
             ReSTful APIs developed with Express JS and/or Express Generator This
-            can be seen on my javascript projects on Github.
+            can be seen on my javascript projects on Github, look for the TATE
+            project.
           </li>
           <li>
             A thorough understanding of how clients and servers communicate as

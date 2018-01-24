@@ -18,6 +18,7 @@ import Skills from "./components/skills.js";
 import Blurb from "./components/blurb.js";
 import Social from "./components/social.js";
 import Footer from "./components/footer.js";
+import Education from "./components/education.js";
 
 /********
  ** App
@@ -34,6 +35,7 @@ class App extends Component {
           <Cv />
           <Skills />
           <Projects />
+          <Education />
           <Social />
           <Footer />
         </div>

@@ -12,6 +12,10 @@
   font-family: "Slabo 27px", serif;
 }
 
+i {
+  font-size: 17px;
+}
+
 canvas {
   z-index: -2;
   position: fixed;
@@ -75,14 +79,28 @@ li {
 
 #grid-container {
   position: relative;
-  grid-gap: 1%;
+  grid-gap: 4px;
   padding: 2%;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
 }
+#projects {
+  grid-column: 1/ span 2;
+}
 
 #skills {
-  grid-column: 1 / span 2;
+  grid-column: 2 / span 2;
+}
+
+nav,
+footer {
+  background: #114357; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    rgba(242, 148, 146, 0.507),
+    #11435769
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 8%;
 }
 
 nav {
@@ -94,13 +112,12 @@ nav {
 }
 
 #self {
-  grid-column: 2/ -1;
+  grid-column: 1/ span 2;
 }
 
-#CV {
-  grid-column: 1 / 2;
+#curriculum-Vitae {
+  grid-column: 1/ span1;
 }
-
 #contact {
   text-align: center;
 }
@@ -121,27 +138,78 @@ nav {
 
 footer {
   background-color: rgba(230, 215, 250, 0.123);
-  grid-column: 1 / -1;
+  grid-column: 2 / -1;
   padding: 3%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-@media only screen and (max-width: 650px) {
-  nav {
-    flex-direction: column;
-  }
+#github {
+  color: #000;
+}
 
-  #nav-links {
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
+#reddit {
+  color: #ff4500;
+}
+
+#facebook {
+  color: #3b5998;
+}
+
+#twitter {
+  color: #1da1f3;
+}
+
+#codepen {
+  color: #000;
+}
+
+#instagram {
+  color: #fae2ee;
+  background: #833ab4;
+  background: linear-gradient(
+    to top right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 16px;
+  font-size: 2rem;
+}
+
+button {
+  width: 280px;
+  height: 90px;
+  color: #fae2ee;
+  font-size: 1.5rem;
+  background: #cb2d3e; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #ef473a,
+    #cb2d3e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button:hover {
+  background: linear-gradient(to right, #f85044, #e23c4d);
+}
+
+button #instagram a {
+  font-size: 1rem;
+}
+#social a {
+  font-size: 3rem;
+}
+
+#education li,
+#education h5 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1400px) {
   #app {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   nav *,
@@ -151,5 +219,25 @@ footer {
   h5,
   footer * {
     font-family: wilhelm;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  nav {
+    flex-direction: column;
+  }
+
+  #grid-container {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  #grid-container section,
+  #grid-container footer {
+    grid-column: 1 /-1;
+  }
+
+  #nav-links {
+    flex-direction: row-reverse;
+    justify-content: space-around;
   }
 }
