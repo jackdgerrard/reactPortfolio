@@ -54,6 +54,7 @@ ul {
   padding: 0;
 }
 li {
+  padding: 1.8%;
   padding-left: 1.3em;
 }
 #skills li:before {
@@ -73,6 +74,10 @@ li {
   grid-template-columns: 2fr 1fr 2fr;
 }
 
+#skills {
+  grid-column: 1 / span 2;
+}
+
 nav {
   grid-column: 1 / -1;
   display: flex;
@@ -82,7 +87,11 @@ nav {
 }
 
 #self {
-  grid-column: 2 / -1;
+  grid-column: 2/ -1;
+}
+
+#CV {
+  grid-column: 1 / 2;
 }
 
 #contact {

@@ -31,9 +31,10 @@ class App extends Component {
         <div id="grid-container">
           <Nav />
           <Blurb />
+          <Cv />
           <Skills />
           <Projects />
-          <Cv />
+
           <Social />
           <Footer />
         </div>

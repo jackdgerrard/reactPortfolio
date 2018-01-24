@@ -47,7 +47,7 @@ class skills extends Component {
           <li>Full stack Development with M.E.A.N and L.A.M.P stacks.</li>
           <li>Data storing and exchanging with JSON and XML.</li>
           <li>
-            Database management with Firebase or SQL These are demonstrated in
+            Database management with Firebase or SQL. These are demonstrated in
             the projects on my portfolio.
           </li>
           <li>
@@ -64,12 +64,11 @@ class skills extends Component {
             logo and images on my portfolio.
           </li>
           <li>
-            WordPress installs and maintenance and WordPress theme development
-            with PHP, Virtual Private Servers.
+            WordPress installs, maintenance and theme development with PHP.
           </li>
           <li>
-            Linux server administration that I do through a Virtual Private
-            Server on Digital-Ocean.
+            Linux server configuration and administration that I do through a
+            Virtual Private Server on Digital-Ocean.
           </li>
           <li>
             Zone file manipulation on DNS. SPF, DKIM and DMARC records a

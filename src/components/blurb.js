@@ -22,12 +22,10 @@ class blurb extends Component {
           alt="Jack Gerrard"
           id="portrait"
         />
-        <br />
         <p>
           I specialize in building responsive, dynamic web apps with JavaScript
           and PHP.
         </p>
-        <br />
         <p>
           I aim to be a full-time front end developer and eventually grow into
           project management and/or user experience development. If you've
