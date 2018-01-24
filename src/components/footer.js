@@ -28,8 +28,17 @@ class Footer extends Component {
         </section>
         <section>
           <h4>Made with:</h4>
-          <p>ParticleJS, </p> <p> React,</p>
-          <p>Font Awesome</p>{" "}
+          <p>
+            <a href="https://www.npmjs.com/package/react-particles-js">
+              ParticleJS
+            </a>,
+          </p>
+          <p>
+            <a href="https://reactjs.org/">React</a>,
+          </p>
+          <p>
+            <a href="http://fontawesome.io/">Font Awesome</a>
+          </p>
           <p>
             and <i class="fa fa-heart" aria-hidden="true" id="heart" />
           </p>

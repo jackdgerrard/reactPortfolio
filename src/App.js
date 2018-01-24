@@ -34,7 +34,6 @@ class App extends Component {
           <Cv />
           <Skills />
           <Projects />
-
           <Social />
           <Footer />
         </div>

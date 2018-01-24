@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Wilhelm";
+  src: url("Wilhelm.otf");
+}
+
 #app {
   color: rgb(226, 214, 214);
   font-size: 17px;
@@ -12,7 +17,6 @@ canvas {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  sbackground-color: #00475c;
   background-color: #3c124d;
   background-image: url("../components/images/background.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -34,7 +38,10 @@ a:hover {
   transform: rotate(90deg);
 }
 
-h1,
+h1 {
+  font-family: wilhelm;
+  font-size: 2.7em;
+}
 h2,
 h3,
 h4,
@@ -129,5 +136,20 @@ footer {
   #nav-links {
     flex-direction: row-reverse;
     justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #app {
+    font-size: 20px;
+  }
+
+  nav *,
+  h2,
+  h3,
+  h4,
+  h5,
+  footer * {
+    font-family: wilhelm;
   }
 }

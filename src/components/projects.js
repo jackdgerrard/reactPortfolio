@@ -15,7 +15,7 @@ import projects from "./projects.json";
 class Projects extends Component {
   render() {
     return (
-      <section>
+      <section id="projects">
         <h2>Projects</h2>
         <h3>A selection of projects I'm most proud of</h3>
 

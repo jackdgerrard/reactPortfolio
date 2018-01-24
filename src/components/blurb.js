@@ -29,8 +29,7 @@ class blurb extends Component {
         <p>
           I aim to be a full-time front end developer and eventually grow into
           project management and/or user experience development. If you've
-          decided to hire me you can click the contact details above or at the
-          bottom of the portfolio.
+          decided to hire me you can click the contact details above.
         </p>
       </section>
     );
