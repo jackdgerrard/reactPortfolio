@@ -25,15 +25,14 @@ class Footer extends Component {
               <a href="#CV">CV</a>
             </li>
           </ul>
-
-        <p>
-          Icons by
-          <a href="http://fontawesome.io/">
-            <i className="fa fa-font-awesome" aria-hidden="true" />Font Awesome
-          </a>
-        </p>
-
-          
+        </section>
+        <section>
+          <h4>Made with:</h4>
+          <p>ParticleJS, </p> <p> React,</p>
+          <p>Font Awesome</p>{" "}
+          <p>
+            and <i class="fa fa-heart" aria-hidden="true" id="heart" />
+          </p>
         </section>
       </footer>
     );

@@ -15,17 +15,21 @@ class Nav extends Component {
       <nav className="shadow">
         <a href="#Home">
           <h1>
-            Jack Gerrard<br />Web Developer
+            Jack Gerrard<br />
+            <br />Web Developer
           </h1>
         </a>
 
-        <a href="#Projects">Projects</a>
-        <a href="#CV">Curriculum Vitae</a>
+        <ul id="nav-links">
+          <a href="#Projects">Projects</a>
+          <a href="#CV">Curriculum Vitae</a>
+          <a href="#Education">Education</a>
+        </ul>
 
         <section id="contact">
           <h4>Get in touch</h4>
           <a href="tel:0868447801">
-            <i className="fa fa-mobile" aria-hidden="true" />353 86 844 7801
+            <i className="fa fa-mobile" aria-hidden="true" /> 353 86 844 7801
           </a>
           <br />
           <a

@@ -1,9 +1,37 @@
-
-p{
+#app {
+  color: rgb(226, 214, 214);
+  font-size: 17px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Slabo 27px', serif;
+  font-family: "Slabo 27px", serif;
+}
+
+canvas {
+  z-index: -2;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  sbackground-color: #00475c;
+  background-color: #3c124d;
+  background-image: url("../components/images/background.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+a {
+  color: #f26300;
+  padding: 2%;
+}
+
+a:hover {
+  color: #fa7a1f;
+}
+
+#portrait {
+  height: 128px;
+  border: 2px solid #3c124d;
+  border-radius: 62px;
+  transform: rotate(90deg);
 }
 
 h1,
@@ -13,11 +41,8 @@ h4,
 h5 {
   font-family: "Fira Sans", sans-serif;
 }
-
-canvas {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
+#heart {
+  color: red;
 }
 
 a {
@@ -33,7 +58,7 @@ li {
 }
 #skills li:before {
   content: "\f046"; /* FontAwesome Unicode */
-  color: orange;
+  color: #f26300;
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.3em; /* same as padding-left set on li */
@@ -42,15 +67,58 @@ li {
 
 #grid-container {
   position: relative;
-  justify-content: center;
-  align-content: center;
-  width: 100vw;
-  height: 100vh;
-  grid-gap: 1px;
+  grid-gap: 1%;
+  padding: 2%;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 2fr 1fr 2fr;
 }
 
 nav {
-  grid-row-start: 2 / -2;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 3%;
+}
+
+#self {
+  grid-column: 2 / -1;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  color: whitesmoke;
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#nav-links a {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgba(230, 215, 250, 0.123);
+  grid-column: 1 / -1;
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+  nav {
+    flex-direction: column;
+  }
+
+  #nav-links {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
 }
