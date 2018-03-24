@@ -12,16 +12,25 @@ import React, { Component } from "react";
 class Nav extends Component {
   render() {
     return (
-      <nav className="shadow">
+      <nav className="shadow" id="nav">
         <h1>
           Jack Gerrard<br />
           <br />Web Developer
         </h1>
 
         <ul id="nav-links">
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#Education">Education</a>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#social">Social Networks</a>
+          </li>
         </ul>
 
         <section id="contact">
@@ -32,12 +41,9 @@ class Nav extends Component {
           </a>
           <br />
           <br />
-          <a
-            href="mailto:jackdgerrard@gmail.com?Subject=Hello%20again"
-            target="_top"
-          >
+          <a href="mailto:mail@jackgerrard.io" target="_top">
             <i className="fa fa-envelope-o" aria-hidden="true" />
-            <br />jackdgerrard@gmail.com
+            <br />mail@jackgerrard.io
           </a>
         </section>
       </nav>

@@ -16,7 +16,7 @@ class skills extends Component {
         <h2>Relevant skills</h2>
         <h3> ticking all the boxes</h3>
         <ul>
-          <li>Programming languages: JavaScript, PHP, Python, HTML and CSS.</li>
+          <li>Programming languages: JavaScript, PHP, Java, HTML and CSS.</li>
           <li>
             JavaScript Libraries: React and Vue as demonstrated by the projects
             on my portfolio.

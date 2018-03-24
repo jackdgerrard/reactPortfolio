@@ -16,13 +16,16 @@ class Footer extends Component {
         <section id="footnav">
           <ul>
             <li>
-              <a href="#Home">Top</a>
+              <a href="#nav">Top</a>
             </li>
             <li>
-              <a href="#Projects">Projects</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#CV">CV</a>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
             </li>
           </ul>
         </section>
@@ -42,6 +45,19 @@ class Footer extends Component {
           <p>
             and <i class="fa fa-heart" aria-hidden="true" id="heart" />
           </p>
+        </section>
+        <section id="contact">
+          <h4>Get in touch</h4>
+          <a href="tel:0868447801">
+            <i className="fa fa-phone" aria-hidden="true" />
+            <br /> 353 86 844 7801
+          </a>
+          <br />
+          <br />
+          <a href="mailto:mail@jackgerrard.io" target="_top">
+            <i className="fa fa-envelope-o" aria-hidden="true" />
+            <br />mail@jackgerrard.io
+          </a>
         </section>
       </footer>
     );

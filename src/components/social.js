@@ -33,6 +33,12 @@ class social extends Component {
         <a href="https://www.facebook.com/JackDanielGerrard" id="facebook">
           <i class="fa fa-facebook-official" aria-hidden="true" />
         </a>
+        <a
+          href="https://www.linkedin.com/in/jack-gerrard-627bb9107/"
+          id="linkedIn"
+        >
+          in
+        </a>
       </section>
     );
   }

@@ -157,6 +157,13 @@ footer {
   color: #3b5998;
 }
 
+#linkedIn {
+  background: #3b5998;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
 #twitter {
   color: #1da1f3;
 }
@@ -174,11 +181,10 @@ footer {
     #fd1d1d,
     #833ab4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 16px;
-  font-size: 2rem;
+  border-radius: 8px;
 }
 
-button {
+.myButton {
   width: 280px;
   height: 90px;
   color: #fae2ee;

@@ -20,6 +20,8 @@ import Social from "./components/social.js";
 import Footer from "./components/footer.js";
 import Education from "./components/education.js";
 
+import CookieConsent from "react-cookie-consent";
+
 /********
  ** App
  ********/
@@ -39,6 +41,9 @@ class App extends Component {
           <Social />
           <Footer />
         </div>
+        <CookieConsent>
+          This website uses cookies to enhance the user experience.
+        </CookieConsent>
       </div>
     );
   }
