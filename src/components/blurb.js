@@ -24,12 +24,12 @@ class blurb extends Component {
         />
         <p>
           I specialize in building responsive, dynamic web apps with JavaScript
-          and PHP.
+          and PHP. I am currently looking to expand my portfolio with real
+          client work. If you need some web work done let me know.
         </p>
         <p>
-          I aim to be a full-time front end developer and eventually grow into
-          project management and/or user experience development. If you've
-          decided to hire me you can click the contact details above.
+          I aim to be a full-time full stack developer. Have a look around at my
+          portfolio, feel free to contact me for any reason at all.
         </p>
       </section>
     );

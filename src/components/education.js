@@ -46,22 +46,21 @@ class Education extends Component {
           other platforms.
         </p>
         <p>
-          While I worked there I decided that my true calling was in web
+          While I worked there I realized that my true calling was in web
           development and spent a great deal of my spare time playing with
           various front-end techniques and libraries for CSS and JavaScript
         </p>
         <h4>2016</h4>
         <p>
-          When I was let go from that call centre at the beginning of 2016 I
-          went back to St John's to further my education and did a level 6
-          certificate in "Systems software and networks". This course covered a
-          wide range of computer science subjects from Network maintenance and
-          security through to terminal usage, during this year I learned more
-          about client-side JavaScript, PHP, and C#. I had never been more
-          resolute to become a web developer.
+          When I was let go from Voxpro at the beginning of 2016 I went back to
+          St John's to further my education and did a level 6 certificate in
+          "Systems software and networks". This course covered a wide range of
+          computer science subjects from Network maintenance and security
+          through to terminal usage, during this year I learned more about
+          client-side JavaScript, PHP, and C#. I had never been more resolute to
+          become a web developer.
         </p>
         <h4>2017</h4>
-
         <p>
           I was very successful and learned a lot in the last year at St John's,
           so successful that I was able to Join{" "}
@@ -84,15 +83,15 @@ class Education extends Component {
         <h5>Modules - results</h5>
         <ul>
           <li>GUI Programming - distinction</li>
-          <li> IT Administration - distinction </li>
+          <li>IT Administration - distinction </li>
           <li>Leadership - distinction</li>
-          <li> Mobile Technologies - distinction</li>
-          <li> Network Infrastructure - distinction</li>
-          <li> Network Security - merit</li>
-          <li> Object Oriented - Programming pass</li>
-          <li> Physical and Logical Networking - distinction</li>
-          <li> Systems Software - distinction</li>
-          <li> Web development - distinction</li>
+          <li>Mobile Technologies - distinction</li>
+          <li>Network Infrastructure - distinction</li>
+          <li>Network Security - merit</li>
+          <li>Object Oriented Programming - pass</li>
+          <li>Physical and Logical Networking - distinction</li>
+          <li>Systems Software - distinction</li>
+          <li>Web development - distinction</li>
         </ul>
       </section>
     );

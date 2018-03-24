@@ -15,7 +15,7 @@ class Projects extends Component {
         <h2>Projects</h2>
         <h3>A selection of projects I'm most proud of</h3>
         <section className="flexbox">
-          <article>
+          {/* <article>
             <h4>
               <a href="https://www.norsemanInstruments.com">
                 NorsemanInstruments.com
@@ -36,7 +36,7 @@ class Projects extends Component {
                 NorsemanInstruments.com
               </a>
             </p>
-          </article>
+          </article> */}
           <article>
             <h4>Tempus, a to-do list with CRUD functionality</h4>
             <p>
@@ -74,12 +74,15 @@ class Projects extends Component {
             <p>
               CodePen is my go-to for trying, breaking and fixing front-end
               techniques and technologies. I store almost all of my code on
-              Github for projects and college work. Feel free to poke around.
-              <a href="https://codepen.io/" id="codepen">
+              Github for projects and college work. Feel free to poke around.{" "}
+              <br />
+              <a href="https://codepen.io/Spectral/" id="codepen">
+                Link to codepen{" "}
                 <i className="fa fa-codepen" aria-hidden="true" />
-              </a>
+              </a>{" "}
+              <br />
               <a href="https://github.com/jackdgerrard" id="github">
-                <i className="fa fa-github" aria-hidden="true" />
+                Link to Github<i className="fa fa-github" aria-hidden="true" />
               </a>
             </p>
           </article>

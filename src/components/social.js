@@ -18,9 +18,6 @@ class social extends Component {
         <a href="https://twitter.com/Jack_Grrd" id="twitter">
           <i class="fa fa-twitter-square" aria-hidden="true" />
         </a>
-        <a href="https://www.reddit.com/user/Pud11es/" id="reddit">
-          <i class="fa fa-reddit-square" aria-hidden="true" />
-        </a>
         <a href="https://github.com/jackdgerrard" id="github">
           <i className="fa fa-github" aria-hidden="true" />
         </a>
@@ -29,9 +26,6 @@ class social extends Component {
         </a>
         <a href="https://codepen.io/" id="codepen">
           <i className="fa fa-codepen" aria-hidden="true" />
-        </a>
-        <a href="https://www.facebook.com/JackDanielGerrard" id="facebook">
-          <i class="fa fa-facebook-official" aria-hidden="true" />
         </a>
         <a
           href="https://www.linkedin.com/in/jack-gerrard-627bb9107/"

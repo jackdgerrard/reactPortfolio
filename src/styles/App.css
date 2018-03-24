@@ -4,7 +4,7 @@
 }
 
 #app {
-  color: rgb(226, 214, 214);
+  color: rgb(39, 38, 38);
   font-size: 17px;
   margin: 0;
   padding: 0;
@@ -16,14 +16,18 @@ i {
   font-size: 17px;
 }
 
-canvas {
+canvas:not(react-pdf__Document) {
   z-index: -2;
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: #3c124d;
+  background-color: #ffffff;
   background-image: url("../components/images/background.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+section {
+  padding: 8px;
 }
 
 a {
@@ -39,7 +43,6 @@ a:hover {
   height: 128px;
   border: 2px solid #3c124d;
   border-radius: 62px;
-  transform: rotate(90deg);
 }
 
 h1 {
@@ -97,7 +100,7 @@ footer {
   background: #114357; /* fallback for old browsers */
   background: linear-gradient(
     to right,
-    rgba(242, 148, 146, 0.507),
+    rgba(242, 148, 146, 0.199),
     #11435769
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 8%;
