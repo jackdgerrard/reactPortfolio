@@ -1,252 +1,249 @@
-@font-face {
-  font-family: "Wilhelm";
-  src: url("Wilhelm.otf");
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 #app {
-  color: rgb(39, 38, 38);
-  font-size: 17px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Slabo 27px", serif;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 i {
-  font-size: 17px;
+    font-size: 17px;
 }
 
 canvas:not(react-pdf__Document) {
-  z-index: -2;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffffff;
-  background-image: url("../components/images/background.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    z-index: -2;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #646464;
+    background-image: url('../components/images/background.png');
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 section {
-  padding: 8px;
+    padding: 8px;
 }
 
 a {
-  color: #f26300;
-  padding: 2%;
+    color: #f26300;
+    padding: 2%;
 }
 
 a:hover {
-  color: #fa7a1f;
+    color: #fa7a1f;
 }
 
 #portrait {
-  height: 128px;
-  border: 2px solid #3c124d;
-  border-radius: 62px;
+    height: 128px;
+    border: 2px solid #3c124d;
+    border-radius: 62px;
 }
 
 h1 {
-  font-family: wilhelm;
-  font-size: 2.7em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.7em;
 }
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Fira Sans", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 #heart {
-  color: red;
+    color: red;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 li {
-  padding: 1.8%;
-  padding-left: 1.3em;
+    padding: 1.8%;
+    padding-left: 1.3em;
 }
 #skills li:before {
-  content: "\f046"; /* FontAwesome Unicode */
-  color: #f26300;
-  font-family: FontAwesome;
-  display: inline-block;
-  margin-left: -1.3em; /* same as padding-left set on li */
-  width: 1.3em; /* same as padding-left set on li */
+    content: '\f046'; /* FontAwesome Unicode */
+    color: #f26300;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
 }
 
 #grid-container {
-  position: relative;
-  grid-gap: 4px;
-  padding: 2%;
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+    position: relative;
+    grid-gap: 4px;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
 }
 #projects {
-  grid-column: 1/ span 2;
+    grid-column: 1/ span 2;
 }
 
 #skills {
-  grid-column: 2 / span 2;
+    grid-column: 2 / span 2;
 }
 
 nav,
 footer {
-  background: #114357; /* fallback for old browsers */
-  background: linear-gradient(
-    to right,
-    rgba(242, 148, 146, 0.199),
-    #11435769
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 8%;
+    background: #114357; /* fallback for old browsers */
+    background: linear-gradient(
+        to right,
+        rgba(242, 148, 146, 0.199),
+        #11435769
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 8%;
 }
 
 nav {
-  grid-column: 1 / -1;
-  display: flex;
-  justify-content: space-around;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
 
-  padding: 3%;
+    padding: 3%;
 }
 
 #self {
-  grid-column: 1/ span 2;
+    grid-column: 1/ span 2;
 }
 
 #curriculum-Vitae {
-  grid-column: 1/ span1;
+    grid-column: 1/ span1;
 }
 #contact {
-  text-align: center;
+    text-align: center;
 }
 
 #contact a {
-  color: whitesmoke;
+    color: whitesmoke;
 }
 
 #nav-links {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #nav-links a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 footer {
-  background-color: rgba(230, 215, 250, 0.123);
-  grid-column: 2 / -1;
-  padding: 3%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    background-color: rgba(230, 215, 250, 0.123);
+    grid-column: 2 / -1;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #github {
-  color: #000;
+    color: #000;
 }
 
 #reddit {
-  color: #ff4500;
+    color: #ff4500;
 }
 
 #facebook {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 #linkedIn {
-  background: #3b5998;
-  color: white;
-  font-family: sans-serif;
-  font-weight: 600;
+    background: #3b5998;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 #twitter {
-  color: #1da1f3;
+    color: #1da1f3;
 }
 
 #codepen {
-  color: #000;
+    color: #000;
 }
 
 #instagram {
-  color: #fae2ee;
-  background: #833ab4;
-  background: linear-gradient(
-    to top right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 8px;
+    color: #fae2ee;
+    background: #833ab4;
+    background: linear-gradient(
+        to top right,
+        #fcb045,
+        #fd1d1d,
+        #833ab4
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 8px;
 }
 
 .myButton {
-  width: 280px;
-  height: 90px;
-  color: #fae2ee;
-  font-size: 1.5rem;
-  background: #cb2d3e; /* fallback for old browsers */
-  background: linear-gradient(
-    to right,
-    #ef473a,
-    #cb2d3e
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 280px;
+    height: 90px;
+    color: #fae2ee;
+    font-size: 1.5rem;
+    background: #cb2d3e; /* fallback for old browsers */
+    background: linear-gradient(
+        to right,
+        #ef473a,
+        #cb2d3e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 button:hover {
-  background: linear-gradient(to right, #f85044, #e23c4d);
+    background: linear-gradient(to right, #f85044, #e23c4d);
 }
 
 button #instagram a {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 #social a {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 #education li,
 #education h5 {
-  text-align: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 1400px) {
-  #app {
-    font-size: 21px;
-  }
+    #app {
+        font-size: 21px;
+    }
 
-  nav *,
-  h2,
-  h3,
-  h4,
-  h5,
-  footer * {
-    font-family: wilhelm;
-  }
+    nav *,
+    h2,
+    h3,
+    h4,
+    h5,
+    footer * {
+        font-family: wilhelm;
+    }
 }
 
 @media only screen and (max-width: 650px) {
-  nav {
-    flex-direction: column;
-  }
+    nav {
+        flex-direction: column;
+    }
 
-  #grid-container {
-    grid-template-columns: repeat(1, 100%);
-  }
+    #grid-container {
+        grid-template-columns: repeat(1, 100%);
+    }
 
-  #grid-container section,
-  #grid-container footer {
-    grid-column: 1 /-1;
-  }
+    #grid-container section,
+    #grid-container footer {
+        grid-column: 1 /-1;
+    }
 
-  #nav-links {
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
+    #nav-links {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
 }
