@@ -14,7 +14,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import Nav from './components/nav';
 //import Projects from "./components/projects.js";
 //import Cv from "./components/cv.js";
-//import Skills from "./components/skills.js";
+import Skills from './components/skills.js';
 import Blurb from './components/blurb.js';
 import Social from './components/social.js';
 import Footer from './components/footer.js';
@@ -34,7 +34,9 @@ class App extends Component {
                 <div id="grid-container">
                     <Nav />
                     <Blurb />
+                    <Skills />
                     <Social />
+
                     <Footer />
                 </div>
                 <CookieConsent>
